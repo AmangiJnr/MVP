@@ -341,8 +341,8 @@ header #menu {
 }
 
 @media only screen and (max-width: 480px) {
-  * {
-    overflow-x: hidden;
+  body {
+    flex-wrap: wrap;
   }
 
   .contact {
@@ -473,6 +473,10 @@ header #menu {
 }
 
 @media only screen and (max-width: 768px) {
+  body {
+    overflow-x: hidden;
+  }
+
   .contact {
     display: flex;
     justify-content: center;
