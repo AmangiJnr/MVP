@@ -12,9 +12,8 @@ html {
   display: flex;
   justify-content: space-evenly;
   align-items: center;
-  padding: 20px;
+  padding: 15px;
   background-color: #181818e4;
-  padding-left: 50px;
   width: 100%;
 }
 
@@ -30,7 +29,7 @@ header {
   align-items: center;
   padding: 30px;
   background-color: white;
-  height: 40px;
+  height: 50px;
   position: sticky;
   top: 0;
   z-index: 1;
@@ -84,15 +83,19 @@ header button {
 }
 
 .banner {
-  position: relative;
+  /* position: relative; */
   width: 100%;
   filter: brightness(80%);
 }
 
-/* video {
-  height: 100%;
-  width: 100%;
-} */
+
+.banner video{
+  
+}
+video{
+  width: 100vw;
+  height: 100vh;
+}
 
 .banner .container {
   position: absolute;
