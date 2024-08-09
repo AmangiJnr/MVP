@@ -340,7 +340,7 @@ header #menu {
   display: none;
 }
 
-@media only screen and (max-width: 480px) {
+@media screen and (max-width: 480px) {
   * {
     max-width: 450px;
   }
@@ -472,7 +472,7 @@ header #menu {
   }
 }
 
-@media only screen and (max-width: 768px) {
+@media screen and (max-width: 768px) {
   .contact {
     display: flex;
     justify-content: center;
