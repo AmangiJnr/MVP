@@ -88,11 +88,10 @@ header button {
   filter: brightness(80%);
 }
 
-
-.banner video{
+/* .banner video{
   
-}
-video{
+} */
+video {
   width: 100vw;
   height: 100vh;
 }
