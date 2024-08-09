@@ -341,7 +341,7 @@ header #menu {
 }
 
 @media only screen and (max-width: 480px) {
-  body {
+  * {
     overflow-x: hidden;
   }
 
@@ -349,12 +349,12 @@ header #menu {
     display: flex;
     justify-content: center;
     align-items: center;
-    max-width: 100%;
+    width: 100%;
   }
 
   header {
     margin-top: 20px;
-    max-width: 100%;
+    width: 100%;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
