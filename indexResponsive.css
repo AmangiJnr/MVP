@@ -328,6 +328,10 @@ header button:hover {
     border: 1px solid red;
   }
 
+  body{
+    overflow-x: hidden;
+  }
+
   .mobile {
     display: flex;
     width: 150px;
