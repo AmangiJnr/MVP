@@ -328,7 +328,7 @@ header button:hover {
   }
 
   body{
-    overflow-x: hidden;
+    max-width: 100%;
   }
 
   .mobile {
