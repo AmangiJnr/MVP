@@ -89,10 +89,12 @@ header button:hover {
 
 .banner {
   filter: brightness(80%);
+  background-attachment: fixed;
 }
 
 .banner video {
   width: 100%;
+  background-attachment: fixed;
 }
 
 .container {
